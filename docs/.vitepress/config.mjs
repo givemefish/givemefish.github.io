@@ -5,7 +5,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "JC Note",
   description: "個人日常隨筆、工作筆記和學習記錄",
-  cleanUrls: true,
+  cleanUrls: true,  
   markdown: {
     lineNumbers: true,
     config: (md) => {
@@ -29,6 +29,9 @@ export default defineConfig({
     footer: {      
       copyright: 'Copyright © 2024-present Chia-Chun Chen'
     },    
+    search: {
+      provider: 'local'
+    }
   },
   vite: {
     plugins: [
