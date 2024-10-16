@@ -5,8 +5,8 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vite-plugin-vitepress-auto-sidebar": "^1.7.0",
     "vitepress": "^1.4.0",
-    "vitepress-markdown-timeline": "^1.2.1"
+    "vitepress-markdown-timeline": "^1.2.1",
+    "vitepress-sidebar": "^1.27.1"
   }
 }

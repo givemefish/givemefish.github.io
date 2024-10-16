@@ -1,8 +1,6 @@
-# Cheat Sheet
+﻿# VS Code
 
-## VS Code
-
-### General
+## General
 | Shortcut              | Command                   |
 | --------------------- | ------------------------- |
 | `Ctrl` `Shift` `P`    | Show Command Palette      |
@@ -12,7 +10,7 @@
 | `Ctrl` `,`            | User Settings             |
 | `Ctrl` `K` `Ctrl` `S` | Keyboard Shortcuts        |
 
-### Search/Replace
+## Search/Replace
 | `Ctrl` `F`            | Find                                   |
 | --------------------- | -------------------------------------- |
 | `Ctrl` `H`            | Replace                                |
@@ -23,7 +21,7 @@
 | `Ctrl` `K` `Ctrl` `D` | Move last selection to next Find match |
 | `Alt` `C/R/W`         | Toggle case-sensitive/regex/whole word |
 
-### Basic Edit
+## Basic Edit
 | Shortcut                | Command                            |
 | ----------------------- | ---------------------------------- |
 | `Ctrl` `X`              | Cut line (empty selection)         |
@@ -52,7 +50,7 @@
 | `Shift` `Alt` `A`       | Toggle block comment               |
 | `Alt` `Z`               | Toggle word wrap                   |
 
-### Navigate
+## Navigate
 | Shortcut             | Command                         |
 | -------------------- | ------------------------------- |
 | `Ctrl` `T`           | Show all Symbols                |
@@ -66,7 +64,7 @@
 | `Alt` `Left/Right`   | Go back/forward                 |
 | `Ctrl` `M`           | Toggle Tab moves focus          |
 
-### Multi-cursor and selection
+## Multi-cursor and selection
 | Shortcut                           | Command                                     |
 | ---------------------------------- | ------------------------------------------- |
 | `Ctrl` `Alt` `Up/Down`             | Insert cursor above/below                   |
@@ -81,7 +79,7 @@
 | `Ctrl` `Shift` `Alt` `(arrow key)` | Column (box) selection                      |
 | `Ctrl` `Shift` `Alt` `PgUp/PgDown` | Column (box) selection page up/down         |
 
-### Rich languages editing
+## Rich languages editing
 | Shortcut               | Command                     |
 | ---------------------- | --------------------------- |
 | `Ctrl` `Space`         | Trigger suggestion          |
@@ -97,7 +95,7 @@
 | `Ctrl` `K` `Ctrl` `X`  | Trim trailing whitespace    |
 | `Ctrl` `K` `M`         | Change file language        |
 
-### Editor management
+## Editor management
 | Shortcut                       | Command                                  |
 | ------------------------------ | ---------------------------------------- |
 | `Ctrl` `F4`                    | Close editor                             |
@@ -109,7 +107,7 @@
 | `Ctrl` `Shift` `PgUp/PgDown`   | Move editor left/right                   |
 | `Ctrl` `K` `Left/Right`        | Move active editor group                 |
 
-### File management
+## File management
 | Shortcut              | Command                                 |
 | --------------------- | --------------------------------------- |
 | `Ctrl` `N`            | New File                                |
@@ -124,7 +122,7 @@
 | `Ctrl` `Tab`          | Open next                               |
 | `Ctrl` `Shift` `Tab`  | Open previous                           |
 
-### Display
+## Display
 | Shortcut           | Command                                    |
 | ------------------ | ------------------------------------------ |
 | `F11`              | Toggle full screen                         |
@@ -143,7 +141,7 @@
 | `Ctrl` `K` `V`     | Open Markdown preview to the side          |
 | `Ctrl` `K` `Z`     | Zen Mode (Esc Esc to exit)                 |
 
-### Debug
+## Debug
 | Shortcut              | Command           |
 | --------------------- | ----------------- |
 | `F9`                  | Toggle breakpoint |
@@ -154,7 +152,7 @@
 | `F10`                 | Step over         |
 | `Ctrl` `K` `Ctrl` `I` | Show hover        |
 
-### Integrated terminal
+## Integrated terminal
 | Shortcut               | Command                    |
 | ---------------------- | -------------------------- |
 | `Ctrl` `` ` ``         | Show integrated terminal   |
