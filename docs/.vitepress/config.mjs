@@ -45,6 +45,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/givemefish/' }
     ],   
+    docFooter: {
+      prev: '前一頁',
+      next: '下一頁'
+    },
     footer: {      
       copyright: 'Copyright © 2024-present Chia-Chun Chen'
     },    
