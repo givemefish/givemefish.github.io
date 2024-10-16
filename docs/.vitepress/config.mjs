@@ -36,10 +36,12 @@ export default defineConfig({
     nav: [
       { text: '首頁', link: '/' },
       { text: '書法', link: '/calligraphy' },
-      { text: '程式', link: '/programming' }
+      { text: '程式', link: '/programming' },
+      { text: '健身', link: '/fitness' }
     ],        
     sidebar: generateSidebar(vitepressSidebarOptions),
     outline: {
+      level: 'deep',
       label: '頁面導覽'
     },
     socialLinks: [
