@@ -5,18 +5,18 @@ import { defineConfig } from 'vitepress'
 // https://vitepress-sidebar.cdget.com/zhHans/introduction
 const vitepressSidebarOptions = [{
   documentRootPath: 'docs',
-  collapse: false,
+  collapsed: true,  
   scanStartPath: 'calligraphy',  
   resolvePath: '/calligraphy/',     
   useTitleFromFileHeading: true,
-  sortFolderTo: 'bottom',
-  convertSameNameSubFileToGroupIndexPage: true
+  hyphenToSpace: true,
+  convertSameNameSubFileToGroupIndexPage: true,  
 }, {
   documentRootPath: 'docs',
   scanStartPath: 'programming',  
   resolvePath: '/programming/',  
   useTitleFromFileHeading: true,
-  sortFolderTo: 'bottom',
+  hyphenToSpace: true,
   convertSameNameSubFileToGroupIndexPage: true
 }];
 
@@ -54,6 +54,7 @@ export default defineConfig({
     footer: {      
       copyright: 'Copyright © 2024-present Chia-Chun Chen'
     },    
+    returnToTopLabel: '返回頁首',
     search: {
       provider: 'local'
     }
