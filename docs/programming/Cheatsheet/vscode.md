@@ -1,4 +1,8 @@
-﻿# VS Code
+﻿---
+title: 'VS Code'
+---
+
+# VS Code
 
 ## General
 | Shortcut              | Command                   |

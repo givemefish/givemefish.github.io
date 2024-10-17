@@ -4,18 +4,17 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress-sidebar.cdget.com/zhHans/introduction
 const vitepressSidebarOptions = [{
-  documentRootPath: 'docs',
-  collapsed: true,  
+  documentRootPath: 'docs',  
   scanStartPath: 'calligraphy',  
-  resolvePath: '/calligraphy/',   
-  includeFolderIndexFile: true,
-  useTitleFromFileHeading: true,    
+  resolvePath: '/calligraphy/',  
+  convertSameNameSubFileToGroupIndexPage: true,   
+  useTitleFromFrontmatter: true,    
 }, {
   documentRootPath: 'docs',
   scanStartPath: 'programming',  
-  resolvePath: '/programming/',  
-  hyphenToSpace: true,
-  useTitleFromFileHeading: true  
+  resolvePath: '/programming/',    
+  convertSameNameSubFileToGroupIndexPage: true,
+  useTitleFromFrontmatter: true  
 }];
 
 
