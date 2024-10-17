@@ -1,3 +1,7 @@
 ﻿.vp-doc a {
     text-decoration: none;
 }
+
+.VPSocialLinks.VPNavBarSocialLinks.social-links {
+    margin-right: 0;
+  }
