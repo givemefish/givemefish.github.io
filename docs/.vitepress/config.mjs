@@ -1,4 +1,5 @@
 import timeline from "vitepress-markdown-timeline";
+import taskLists from 'markdown-it-task-checkbox';
 import { generateSidebar } from 'vitepress-sidebar'; 
 import { defineConfig } from 'vitepress'
 
@@ -27,6 +28,7 @@ export default defineConfig({
     lazyLoading: true,
     config: (md) => {
       md.use(timeline);
+      md.use(taskLists);
     },
   },
   themeConfig: {            
