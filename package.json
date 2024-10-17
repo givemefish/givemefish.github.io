@@ -5,6 +5,8 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.6.1",
+    "@nolebase/vitepress-plugin-highlight-targeted-heading": "^2.6.1",
     "vitepress": "^1.4.0",
     "vitepress-markdown-timeline": "^1.2.1",
     "vitepress-sidebar": "^1.27.1"

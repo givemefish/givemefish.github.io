@@ -7,17 +7,14 @@ const vitepressSidebarOptions = [{
   documentRootPath: 'docs',
   collapsed: true,  
   scanStartPath: 'calligraphy',  
-  resolvePath: '/calligraphy/',     
-  useTitleFromFileHeading: true,
-  hyphenToSpace: true,
-  convertSameNameSubFileToGroupIndexPage: true,  
+  resolvePath: '/calligraphy/',   
+  includeFolderIndexFile: true,    
+  useTitleFromFileHeading: true,    
 }, {
   documentRootPath: 'docs',
   scanStartPath: 'programming',  
   resolvePath: '/programming/',  
-  useTitleFromFileHeading: true,
-  hyphenToSpace: true,
-  convertSameNameSubFileToGroupIndexPage: true
+  useTitleFromFileHeading: true  
 }];
 
 
@@ -58,5 +55,13 @@ export default defineConfig({
     search: {
       provider: 'local'
     }
+  },
+  vite: { 
+    ssr: { 
+      noExternal: [ 
+        // 如果还有别的依赖需要添加的话，并排填写和配置到这里即可
+        '@nolebase/vitepress-plugin-highlight-targeted-heading', 
+      ], 
+    }, 
   }
 })
