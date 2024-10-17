@@ -42,6 +42,9 @@
  * - `danger`: Used to show error, or dangerous message to the users. Used
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
+ @import './var.css'; 
+ @import './vp-code.css';
+ @import './vp-code-group.css';
 
  :root {
   --vp-c-default-1: var(--vp-c-gray-1);

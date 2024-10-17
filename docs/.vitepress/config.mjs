@@ -8,12 +8,13 @@ const vitepressSidebarOptions = [{
   collapsed: true,  
   scanStartPath: 'calligraphy',  
   resolvePath: '/calligraphy/',   
-  includeFolderIndexFile: true,    
+  includeFolderIndexFile: true,
   useTitleFromFileHeading: true,    
 }, {
   documentRootPath: 'docs',
   scanStartPath: 'programming',  
   resolvePath: '/programming/',  
+  hyphenToSpace: true,
   useTitleFromFileHeading: true  
 }];
 
@@ -24,12 +25,12 @@ export default defineConfig({
   cleanUrls: true,      
   markdown: {
     lineNumbers: true,
+    lazyLoading: true,
     config: (md) => {
       md.use(timeline);
     },
   },
-  themeConfig: {        
-    lastUpdated: true,            
+  themeConfig: {            
     nav: [
       { text: '首頁', link: '/' },
       { text: '書法', link: '/calligraphy' },

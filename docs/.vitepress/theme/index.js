@@ -7,7 +7,6 @@ import { NolebaseEnhancedReadabilitiesMenu,  NolebaseEnhancedReadabilitiesScreen
 import './style.css'
 import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css' 
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
-import './custom.css'
 
 export default {
   extends: DefaultTheme,

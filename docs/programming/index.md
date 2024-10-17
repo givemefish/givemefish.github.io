@@ -1,6 +1,4 @@
 # 程式
-* [Cheatsheet](./Cheatsheet/vscode)
-* [Snippets](./Snippets/javascript)
 
 ## 更新記錄
 ::: timeline 2023-10-08
