@@ -2,6 +2,10 @@
     text-decoration: none;
 }
 
+.vp-doc h2 {
+    margin: 16px;
+}
+
 .VPSocialLinks.VPNavBarSocialLinks.social-links {
     margin-right: 0;
   }

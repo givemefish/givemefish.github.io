@@ -4,12 +4,13 @@ import { generateSidebar } from 'vitepress-sidebar';
 import { defineConfig } from 'vitepress'
 
 // https://vitepress-sidebar.cdget.com/zhHans/introduction
-const vitepressSidebarOptions = [{
+const vitepressSidebarOptions = [{  
   documentRootPath: 'docs',  
   scanStartPath: 'calligraphy',  
   resolvePath: '/calligraphy/',  
   convertSameNameSubFileToGroupIndexPage: true,   
-  useTitleFromFrontmatter: true,    
+  useTitleFromFrontmatter: true,  
+  collapsed: true  
 }, {
   documentRootPath: 'docs',
   scanStartPath: 'programming',  
