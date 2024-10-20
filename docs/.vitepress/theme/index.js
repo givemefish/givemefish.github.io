@@ -2,7 +2,7 @@
 import { h } from "vue";
 import DefaultTheme from "vitepress/theme";
 import Tags from "./components/Tags.vue";
-import "./style.css";
+import "./styles/style.css";
 
 export default {
   extends: DefaultTheme,

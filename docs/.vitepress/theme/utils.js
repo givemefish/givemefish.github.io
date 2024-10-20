@@ -12,4 +12,13 @@
       });
     }
   }
+
+  var orderedData = Object.keys(data)
+    .sort((a, b) => a.localeCompare(b, "zh-Hant"))
+    .reduce((obj, key) => {
+      obj[key] = data[key];
+      return obj;
+    }, {});
+
+  return orderedData;
 }

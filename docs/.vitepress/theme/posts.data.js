@@ -8,14 +8,11 @@ export default createContentLoader("/**/*.md", {
         url,
         tags: frontmatter?.tags,
       }))
-      .filter(({ title }) => title != null)
+      .filter(({ title }) => title != null && typeof title != undefined)
       .sort((a, b) => {
-        var titleA = a.title.toUpperCase();
-        var titleB = b.title.toUpperCase();
-        if (titleA < titleB) return -1;
-        else if (titleA > titleB) return 1;
-        else return 0;
+        return a.title.localeCompare(b.title, "zh-Hant");
       });
+
     return result;
   },
 });
