@@ -28,17 +28,22 @@ const themeConfig = {
   favicon: "/favicon.ico",
   title: "JC Note",
   description: "個人日常隨筆、工作筆記和學習記錄",
-  lastUpdated: true,
+  lastUpdated: false,
   cleanUrls: true,
   mdMath: true, // 數學公式
   mdLineNums: true, // 程式行號
   mdLazyLoading: true, // 圖片延遲載入
   nav: [
     { text: "首頁", link: "/" },
-    { text: "書法", link: "/calligraphy/" },
-    { text: "程式", link: "/programming/" },
-    { text: "健身", link: "/fitness/" },
-    // { text: "標籤", link: "/tags" },
+    {
+      text: "分類",
+      items: [
+        { text: "書法", link: "/calligraphy/" },
+        { text: "程式", link: "/programming/" },
+        { text: "健身", link: "/fitness/" },
+      ],
+    },
+    { text: "標籤", link: "/tags" },
   ],
   sidebar: generateSidebar(vitepressSidebarOptions),
   outline: {

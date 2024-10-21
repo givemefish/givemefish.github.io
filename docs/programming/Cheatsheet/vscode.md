@@ -1,5 +1,6 @@
 ﻿---
-title: 'VS Code'
+title: 'VS Code Cheatsheet'
+tags: ['VS Code']
 ---
 
 # VS Code
@@ -112,19 +113,19 @@ title: 'VS Code'
 | `Ctrl` `K` `Left/Right`        | Move active editor group                 |
 
 ## File management
-| Shortcut              | Command                                 |
-| --------------------- | --------------------------------------- |
-| `Ctrl` `N`            | New File                                |
-| `Ctrl` `O`            | Open File...                            |
-| `Ctrl` `S`            | Save                                    |
-| `Ctrl` `Shift` `S`    | Save As...                              |
-| `Ctrl` `K` `S`        | Save All                                |
-| `Ctrl` `F4`           | Close                                   |
-| `Ctrl` `K` `Ctrl` `W` | Close All                               |
-| `Ctrl` `Shift` `T`    | Reopen closed editor                    |
-| `Ctrl` `K` `Enter`    | Keep preview mode editor open           |
-| `Ctrl` `Tab`          | Open next                               |
-| `Ctrl` `Shift` `Tab`  | Open previous                           |
+| Shortcut              | Command                       |
+| --------------------- | ----------------------------- |
+| `Ctrl` `N`            | New File                      |
+| `Ctrl` `O`            | Open File...                  |
+| `Ctrl` `S`            | Save                          |
+| `Ctrl` `Shift` `S`    | Save As...                    |
+| `Ctrl` `K` `S`        | Save All                      |
+| `Ctrl` `F4`           | Close                         |
+| `Ctrl` `K` `Ctrl` `W` | Close All                     |
+| `Ctrl` `Shift` `T`    | Reopen closed editor          |
+| `Ctrl` `K` `Enter`    | Keep preview mode editor open |
+| `Ctrl` `Tab`          | Open next                     |
+| `Ctrl` `Shift` `Tab`  | Open previous                 |
 
 ## Display
 | Shortcut           | Command                                    |
@@ -157,12 +158,12 @@ title: 'VS Code'
 | `Ctrl` `K` `Ctrl` `I` | Show hover        |
 
 ## Integrated terminal
-| Shortcut               | Command                    |
-| ---------------------- | -------------------------- |
-| `Ctrl` `` ` ``         | Show integrated terminal   |
-| `Ctrl` `Shift` `` ` `` | Create new terminal        |
-| `Ctrl` `C`             | Copy selection             |
-| `Ctrl` `V`             | Paste into active terminal |
-| `Ctrl` `Up/Down`       | Scroll up/down             |
-| `Shift` `PgUp/PgDown`  | Scroll page up/down        |
-| `Ctrl` `Home/End`      | Scroll to top/bottom       |
+| Shortcut                                                | Command                    |
+| ------------------------------------------------------- | -------------------------- |
+| `Ctrl` `` ` ``         | Show integrated terminal | | | |                            |
+| `Ctrl` `Shift` `` ` `` | Create new terminal      | | | |                            |
+| `Ctrl` `C`                                              | Copy selection             |
+| `Ctrl` `V`                                              | Paste into active terminal |
+| `Ctrl` `Up/Down`                                        | Scroll up/down             |
+| `Shift` `PgUp/PgDown`                                   | Scroll page up/down        |
+| `Ctrl` `Home/End`                                       | Scroll to top/bottom       |

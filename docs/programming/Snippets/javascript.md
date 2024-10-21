@@ -1,5 +1,6 @@
 ---
 title: 'JavaScript'
+tags: ['JavaScript']
 ---
 # JavaScript
 

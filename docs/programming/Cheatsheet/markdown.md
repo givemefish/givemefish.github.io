@@ -1,5 +1,6 @@
 ﻿---
-title: 'Markdown'
+title: 'Markdown Cheatsheet'
+tags: ['Markdown']
 ---
 
 # Markdown
