@@ -30,6 +30,8 @@ const themeConfig = {
   description: "個人日常隨筆、工作筆記和學習記錄",
   lastUpdated: false,
   cleanUrls: true,
+  outlineLevel: 2,
+  outlineLabel: "目錄導覽",
   mdMath: true, // 數學公式
   mdLineNums: true, // 程式行號
   mdLazyLoading: true, // 圖片延遲載入

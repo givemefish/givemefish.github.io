@@ -17,6 +17,10 @@ export default defineConfig({
     nav: themeConfig.nav,
     sidebar: themeConfig.sidebar,
     socialLinks: themeConfig.socialLinks,
+    outline: {
+      level: themeConfig.outlineLevel,
+      label: themeConfig.outlineLabel,
+    },
     docFooter: themeConfig.docFooter,
     footer: themeConfig.footer,
     search: {
