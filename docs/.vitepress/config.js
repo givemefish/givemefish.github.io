@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 import themeConfig from "./theme/config.js";
 import mdTaskCheckbox from "markdown-it-task-checkbox";
 import mdFootnote from "markdown-it-footnote";
+import mdMark from "markdown-it-mark";
 
 const root = themeConfig.base ? themeConfig.base.slice(0, -1) : "";
 
@@ -37,8 +38,9 @@ export default defineConfig({
     lineNumbers: themeConfig.mdLineNums,
     lazyLoading: themeConfig.mdLazyLoading,
     config: (md) => {
-      md.use(mdFootnote);
       md.use(mdTaskCheckbox);
+      md.use(mdFootnote);
+      md.use(mdMark);
     },
   },
 });

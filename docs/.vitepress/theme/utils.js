@@ -23,10 +23,14 @@
   return orderedData;
 }
 
-// export function init(posts) {
-//   const data = {};
-//   for (let i = 0; i < posts.length; i++) {
-
-//   }
-//   return data;
-// }
+export function initIndexLinks(posts, category) {
+  const data = [];
+  for (let i = 0; i < posts.length; i++) {
+    const post = posts[i];
+    const prefix = "/" + category + "/";
+    if (post.url.startsWith(prefix)) {
+      data.push(post);
+    }
+  }
+  return data;
+}
