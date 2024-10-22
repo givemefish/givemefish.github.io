@@ -22,6 +22,9 @@ export default defineConfig({
       level: themeConfig.outlineLevel,
       label: themeConfig.outlineLabel,
     },
+    editLink: {
+      pattern: themeConfig.editLinkPattern,
+    },
     docFooter: themeConfig.docFooter,
     footer: themeConfig.footer,
     search: {
