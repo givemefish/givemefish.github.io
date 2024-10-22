@@ -39,6 +39,9 @@ const themeConfig = {
   cleanUrls: true,
   outlineLevel: 2,
   outlineLabel: "目錄導覽",
+  editLinkPattern:
+    "https://github.com/givemefish/givemefish.github.io/edit/main/docs/:path",
+  editLinkText: "更新文章",
   mdMath: true, // 數學公式
   mdLineNums: true, // 程式行號
   mdLazyLoading: true, // 圖片延遲載入

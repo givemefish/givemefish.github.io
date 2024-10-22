@@ -24,6 +24,7 @@ export default defineConfig({
     },
     editLink: {
       pattern: themeConfig.editLinkPattern,
+      text: themeConfig.editLinkText,
     },
     docFooter: themeConfig.docFooter,
     footer: themeConfig.footer,
