@@ -11,8 +11,7 @@
                 <div>{{ post.title }}</div>
             </div>
         </a>
-    </div>
-    {{ posts }}
+    </div>    
 </template>
 <script setup>
     import { withBase } from 'vitepress';

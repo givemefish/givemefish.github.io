@@ -2,10 +2,6 @@
     text-decoration: none;
 }
 
-.vp-doc a:hover {
-    text-decoration: underline;
-}
-
 .vp-doc h2 {
     margin-block: 16px;
 }

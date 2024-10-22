@@ -14,16 +14,14 @@ const vitepressSidebarOptions = [
   },
   {
     documentRootPath: "docs",
-    scanStartPath: "literature",
-    resolvePath: "/literature/",
-    //includeFolderIndexFile: true,
+    scanStartPath: "reading",
+    resolvePath: "/reading/",
     useTitleFromFrontmatter: true,
   },
   {
     documentRootPath: "docs",
     scanStartPath: "programming",
     resolvePath: "/programming/",
-    includeFolderIndexFile: true,
     useTitleFromFrontmatter: true,
   },
 ];
@@ -51,7 +49,7 @@ const themeConfig = {
       text: "分類",
       items: [
         { text: "書法", link: "/calligraphy/" },
-        { text: "文學", link: "/literature/" },
+        { text: "閱讀", link: "/reading/" },
         { text: "程式", link: "/programming/" },
         { text: "健身", link: "/fitness/" },
       ],

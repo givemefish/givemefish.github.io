@@ -9,11 +9,14 @@ hero:
     - theme: brand
       text: 隨筆
     - theme: alt
-      text: 程式
-      link: /programming  
-    - theme: alt
       text: 書法
-      link: /calligraphy    
+      link: /calligraphy     
+    - theme: alt
+      text: 程式
+      link: /programming 
+    - theme: alt
+      text: 閱讀
+      link: /reading        
     - theme: alt
       text: 健身
       link: /fitness
