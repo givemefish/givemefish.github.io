@@ -1,10 +1,10 @@
 ﻿<template>
     <div class="tag-container">
-        <a v-for="(_ , tag) in tags" href="#tagName" @click="tagSwitcher(`${tag}`)">
+        <a v-for="(_ , tag) in tags" href="javascript:void(0)" @click="tagSwitcher(`${tag}`)">
             <span class="tag-badge">{{ tag }}</span>
         </a>    
     </div>    
-    <h3 id="tagName" v-show="blogStore.selectedTag">{{ blogStore.selectedTag }}</h3>
+    <h3 v-show="blogStore.selectedTag">{{ blogStore.selectedTag }}</h3>
     <div v-show="blogStore.selectedTag">
         <a v-for="post in tags[blogStore.selectedTag]" target="_blank" :href="withBase(post.url)">
             <div class="tag-link">
@@ -12,6 +12,7 @@
             </div>
         </a>
     </div>
+    {{ posts }}
 </template>
 <script setup>
     import { withBase } from 'vitepress';

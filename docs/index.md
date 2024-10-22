@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "JC Note"  
-  tagline: "個人日常隨筆、工作筆記和學習記錄"
+  tagline: "個人日常隨筆、工作筆記和學習記錄"  
   actions:
     - theme: brand
       text: 隨筆

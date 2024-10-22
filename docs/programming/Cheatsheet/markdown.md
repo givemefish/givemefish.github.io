@@ -1,9 +1,9 @@
 ﻿---
-title: 'Markdown Cheatsheet'
+title: 'Markdown'
 tags: ['Markdown']
 ---
 
-# Markdown
+# Markdown Cheatsheet
 
 ## 標題
 以 ``#`` 開頭，後面至少一個空格

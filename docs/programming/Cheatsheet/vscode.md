@@ -1,9 +1,9 @@
 ﻿---
-title: 'VS Code Cheatsheet'
+title: 'VS Code'
 tags: ['VS Code']
 ---
 
-# VS Code
+# VS Code Cheatsheet
 
 ## General
 | Shortcut              | Command                   |
@@ -158,12 +158,12 @@ tags: ['VS Code']
 | `Ctrl` `K` `Ctrl` `I` | Show hover        |
 
 ## Integrated terminal
-| Shortcut                                                | Command                    |
-| ------------------------------------------------------- | -------------------------- |
-| `Ctrl` `` ` ``         | Show integrated terminal | | | |                            |
-| `Ctrl` `Shift` `` ` `` | Create new terminal      | | | |                            |
-| `Ctrl` `C`                                              | Copy selection             |
-| `Ctrl` `V`                                              | Paste into active terminal |
-| `Ctrl` `Up/Down`                                        | Scroll up/down             |
-| `Shift` `PgUp/PgDown`                                   | Scroll page up/down        |
-| `Ctrl` `Home/End`                                       | Scroll to top/bottom       |
+| Shortcut                                                  | Command                    |
+| --------------------------------------------------------- | -------------------------- |
+| `Ctrl` `` ` ``         | Show integrated terminal | | | | |                            |
+| `Ctrl` `Shift` `` ` `` | Create new terminal      | | | | |                            |
+| `Ctrl` `C`                                                | Copy selection             |
+| `Ctrl` `V`                                                | Paste into active terminal |
+| `Ctrl` `Up/Down`                                          | Scroll up/down             |
+| `Shift` `PgUp/PgDown`                                     | Scroll page up/down        |
+| `Ctrl` `Home/End`                                         | Scroll to top/bottom       |

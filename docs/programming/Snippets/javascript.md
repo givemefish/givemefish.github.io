@@ -2,7 +2,7 @@
 title: 'JavaScript'
 tags: ['JavaScript']
 ---
-# JavaScript
+# JavaScript Snippet
 
 ## debounce
 在「一定時間」內能夠促發這個函式「一次」

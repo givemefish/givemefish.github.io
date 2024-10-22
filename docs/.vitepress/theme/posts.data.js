@@ -5,6 +5,7 @@ export default createContentLoader("/**/*.md", {
     var result = raw
       .map(({ url, frontmatter }) => ({
         title: frontmatter?.title,
+        author: frontmatter.author,
         url,
         tags: frontmatter?.tags,
       }))

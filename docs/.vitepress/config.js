@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import themeConfig from "./theme/config.js";
+import mdTaskCheckbox from "markdown-it-task-checkbox";
 import mdFootnote from "markdown-it-footnote";
 
 const root = themeConfig.base ? themeConfig.base.slice(0, -1) : "";
@@ -26,13 +27,14 @@ export default defineConfig({
     search: {
       provider: "local",
     },
-    markdown: {
-      lineNumbers: themeConfig.mdLineNums,
-      lazyLoading: themeConfig.mdLazyLoading,
-      config: (md) => {
-        md.use(taskLists);
-        md.use(mdFootnote);
-      },
+  },
+  markdown: {
+    math: themeConfig.mdMath,
+    lineNumbers: themeConfig.mdLineNums,
+    lazyLoading: themeConfig.mdLazyLoading,
+    config: (md) => {
+      md.use(mdFootnote);
+      md.use(mdTaskCheckbox);
     },
   },
 });
