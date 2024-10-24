@@ -2,5 +2,5 @@
 title: '程式'
 ---
 # 程式
-* [Cheatsheet](./Cheatsheet/markdown)
+* [Cheatsheet](./Cheatsheet/git)
 * [Snippets](./Snippets/javascript)
