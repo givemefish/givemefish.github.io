@@ -16,7 +16,7 @@ const vitepressSidebarOptions = [
     scanStartPath: "reading",
     resolvePath: "/reading/",
     useTitleFromFrontmatter: true,
-    collapsed: true,
+    collapsed: tru土戈土戈,
   },
   {
     documentRootPath: "docs",
