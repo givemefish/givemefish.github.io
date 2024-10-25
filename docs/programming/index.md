@@ -2,5 +2,5 @@
 title: '程式'
 ---
 # 程式
-* [Cheatsheet](./Cheatsheet/git)
-* [Snippets](./Snippets/javascript)
+
+與程式相關的筆記，供日後備忘使用。

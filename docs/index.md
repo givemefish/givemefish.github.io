@@ -18,8 +18,8 @@ hero:
       text: 閱讀
       link: /reading        
     - theme: alt
-      text: 健身
-      link: /fitness
+      text: 健康
+      link: /health
 
 features:
   - title: 日常隨筆
