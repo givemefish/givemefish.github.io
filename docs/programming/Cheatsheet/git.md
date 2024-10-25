@@ -195,5 +195,5 @@ git push <remote> <branch>
 
 ### Push your tags
 ```
-git push --tags
+git push --tags 
 ```
