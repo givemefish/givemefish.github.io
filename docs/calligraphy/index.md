@@ -6,6 +6,5 @@ title: '書法'
 * [碑帖集](./碑帖集/)
 
 ## 實用網站
-* [中國歷代墓誌數據庫
-* ](http://csid.zju.edu.cn/tomb)
+* [中國歷代墓誌數據庫](http://csid.zju.edu.cn/tomb)
   
