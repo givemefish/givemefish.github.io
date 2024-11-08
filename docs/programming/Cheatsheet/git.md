@@ -22,6 +22,11 @@ git config --local --list
 git config --global --list
 ```
 
+### Setup: push the current branch and set the remote as upstream
+```
+git config --global --add --bool push.autoSetupRemote true
+```
+
 ## Create
 
 ### Clone an existing repository
