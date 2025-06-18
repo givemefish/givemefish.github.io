@@ -202,3 +202,6 @@ git push <remote> <branch>
 ```
 git push --tags 
 ```
+
+### Better git config settings 
+Reference: [How Core Git Developers Configure Git](https://blog.gitbutler.com/how-git-core-devs-configure-git/)
